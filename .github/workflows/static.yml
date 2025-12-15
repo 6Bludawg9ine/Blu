@@ -80,8 +80,10 @@ jobs:
     # Name of Maven Toolchain Vendor if the default name of "${distribution}" is not wanted. See examples of supported syntax in Advanced Usage file
     mvn-toolchain-vendor: # optional
            entire repository
-          path *
-        
-      - name: Deploy to GitHub Pages
+          path 
+        [![.github/workflows/static.yml](https://github.com/6Bludawg9ine/Blu/actions/workflows/static.yml/badge.svg?branch=main&event=check_run)](https://github.com/6Bludawg9ine/Blu/actions/workflows/static.yml)
+      - name: Michael L. Beall
+
+  
         id: deployment
         uses: actions/deploy-pages@v4
