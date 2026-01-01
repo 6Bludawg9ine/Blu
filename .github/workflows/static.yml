@@ -35,8 +35,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload            - name: Setup Java JDK
+        with: Upload name:Setup Java JDK
   uses: actions/setup-java@v5.1.0
   with:
     # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
@@ -82,8 +81,8 @@ jobs:
            entire repository
           path 
         [![.github/workflows/static.yml](https://github.com/6Bludawg9ine/Blu/actions/workflows/static.yml/badge.svg?branch=main&event=check_run)](https://github.com/6Bludawg9ine/Blu/actions/workflows/static.yml)
-      - name: Michael L. Beall
+      - name:Michael L. Beall
 
   
-        id: deployment
-        uses: actions/deploy-pages@v4
+        id:deployment
+        uses:actions/deploy-pages@v4
